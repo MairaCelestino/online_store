@@ -21,9 +21,9 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>Produto</th>
-                            <th>Preço</th>
-                            <th>Quantidade</th>
+                            <th>Product</th>
+                            <th>Ptice</th>
+                            <th>Quantity</th>
                             <th>Total</th>
                             <th>-</th>
                         </tr>
@@ -66,15 +66,15 @@
                             </td>
                             <td>R$ 120</td>
                             <td>
-                               <div class=".qty">
-                                <button>-</button>
-                                <span>2</span>
-                                <button>+</button>
-                               </div> 
+                                <div class="qty">
+                                    <button><i class='bx bx-minus' ></i></button>
+                                    <span>2</span>
+                                    <button> <i class='bx bx-plus' ></i></button>
+                                   </div> 
                             </td>
                             <td>R$ 240</td>
                             <td>
-                              <button><i class='bx bx-x'></i></button>
+                                <button class="remove"><i class='bx bx-x'></i></button>
                             </td>
                         </tr>
                     </thead>
@@ -91,21 +91,35 @@
                             </td>
                             <td>R$ 120</td>
                             <td>
-                               <div class=".qty">
-                                <button>-</button>
-                                <span>2</span>
-                                <button>+</button>
-                               </div> 
+                                <div class="qty">
+                                    <button><i class='bx bx-minus' ></i></button>
+                                    <span>2</span>
+                                    <button> <i class='bx bx-plus' ></i></button>
+                                   </div> 
                             </td>
                             <td>R$ 240</td>
                             <td>
-                              <button><i class='bx bx-x'></i></button>
+                                <button class="remove"><i class='bx bx-x'></i></button>
                             </td>
                         </tr>
                     </thead>
                 </table>
             </section>
-            <aside>resumo das compras</aside>
+            <aside>
+                <div class="box">
+                <header>Order Summary</header>
+                <div class="info">
+                    <div><span>Subtotal</span><span>R$ 418</span></div>
+                    <div><span>Shipping</span><span>Free</span></div>
+                    <div><button>Add coupon code<i class='bx bx-right-arrow-alt' ></i></button></div>
+                </div>
+                <footer>
+                    <span>Total</span>
+                    <span>R$ 418</span>
+                </footer>
+                </div>
+                <button>Checkout</button>
+            </aside>
         </div>
     </main>
 </body>
